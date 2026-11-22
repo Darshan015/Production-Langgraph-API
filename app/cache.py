@@ -1,7 +1,9 @@
 import hashlib
 import time
 from typing import Optional
+#Claude to remeber:
 #In production we use Redis for persistance and sharing with multiple instances
+#USer Permitheous for dictionary counter and load balancer in front:
 class ResponseCache:
     """
     In-memory response cache with TTL (time-to-live).
