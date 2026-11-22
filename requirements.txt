@@ -1,0 +1,15 @@
+langchain
+langchain-core
+langgraph
+langchain-openai
+langchain-anthropic
+dotenv
+langchain_chroma
+langchain_text_splitters
+uvicorn[standard]
+langsmith
+slowapi
+fastapi
+pydantic
+
+

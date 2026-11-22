@@ -1,0 +1,40 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.envrc
+
+# Virtual environment contents
+/Lib/
+/Scripts/
+/pyvenv.cfg
+/CACHEDIR.TAG
+/.venv/
+/venv/
+/env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and package artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
